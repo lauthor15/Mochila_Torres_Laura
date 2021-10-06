@@ -1,0 +1,5 @@
+cobranzas@digitalhouse.com
+
+Lo que vamos a hacer es lo siguiente que es generar un token de seguridad que le de permiso a tu terminal local el acceso a github para eso te voy a pedir que sigas el siguiente paso a paso Primero generar el token desde github -->Perfil - Settings - Developer settings - Personal access tokens - Generate new token. 1. git remote add origin https://<token>@<git_url>.git (saquenle el https:// que está despues del @ sino no lo manda) (si el repo está conectado tienen que sacarlo con 'git remote remove origin') Mas info aca: https://docs.github.com/es/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token 2. git push/pull origin https://<token>@<git_url>.git 3. una vez que se hace el primer push/pull con el token ya se puede usar origin main.
+
+git clone https://<Token>@github.com/Erikatovar/PruebaClase5.git
